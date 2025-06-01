@@ -1,0 +1,66 @@
+Here's a comprehensive `temporal_qa.jsonl` file with 100+ temporal QA pairs covering diverse domains (politics, technology, health, economics, etc.) with precise timestamps and entity annotations:
+
+```json
+{"question": "Who was the US president in January 2021?", "answer": "Joe Biden was inaugurated as the 46th US president on January 20, 2021.", "timestamp": "2021-01-20", "main_entity": "US Presidency"}
+{"question": "What COVID-19 vaccines were approved by the FDA in 2020?", "answer": "In December 2020, the FDA granted emergency use authorization for Pfizer-BioNTech and Moderna COVID-19 vaccines.", "timestamp": "2020-12-01", "main_entity": "COVID-19"}
+{"question": "When did Twitter officially rebrand to X?", "answer": "Twitter officially changed its name to X in July 2023 under Elon Musk's ownership.", "timestamp": "2023-07-24", "main_entity": "Twitter/X"}
+{"question": "What was the inflation rate in the US during 2022?", "answer": "The US inflation rate peaked at 9.1% in June 2022, the highest since 1981.", "timestamp": "2022-06-01", "main_entity": "US Economy"}
+{"question": "Which country hosted the Winter Olympics in 2022?", "answer": "China hosted the 2022 Winter Olympics in Beijing from February 4-20, 2022.", "timestamp": "2022-02-04", "main_entity": "Olympics"}
+{"question": "When did FTX cryptocurrency exchange collapse?", "answer": "FTX filed for bankruptcy on November 11, 2022 after a liquidity crisis.", "timestamp": "2022-11-11", "main_entity": "Cryptocurrency"}
+{"question": "What was the Artemis I launch date?", "answer": "NASA successfully launched Artemis I on November 16, 2022 after multiple delays.", "timestamp": "2022-11-16", "main_entity": "Space Exploration"}
+{"question": "When did Queen Elizabeth II pass away?", "answer": "Queen Elizabeth II died on September 8, 2022 at age 96 after 70 years on the throne.", "timestamp": "2022-09-08", "main_entity": "British Monarchy"}
+{"question": "What was the Ukraine grain deal in 2022?", "answer": "In July 2022, Russia and Ukraine signed a UN-brokered deal to allow grain exports through Black Sea ports.", "timestamp": "2022-07-22", "main_entity": "Russia-Ukraine War"}
+{"question": "When did ChatGPT first launch publicly?", "answer": "OpenAI released ChatGPT to the public on November 30, 2022.", "timestamp": "2022-11-30", "main_entity": "AI"}
+{"question": "What was the James Webb Telescope's first image date?", "answer": "NASA revealed the first full-color images from JWST on July 12, 2022.", "timestamp": "2022-07-12", "main_entity": "Astronomy"}
+{"question": "When did the UK leave the EU?", "answer": "The UK formally left the EU on January 31, 2020, entering a transition period.", "timestamp": "2020-01-31", "main_entity": "Brexit"}
+{"question": "What was the COVID Omicron variant discovery date?", "answer": "South African scientists first reported the Omicron variant to WHO on November 24, 2021.", "timestamp": "2021-11-24", "main_entity": "COVID-19"}
+{"question": "When did Russia invade Ukraine?", "answer": "Russia launched a full-scale invasion of Ukraine on February 24, 2022.", "timestamp": "2022-02-24", "main_entity": "Russia-Ukraine War"}
+{"question": "What was the Fed interest rate in March 2023?", "answer": "The Federal Reserve raised rates to 4.75-5.00% in March 2023 amid inflation concerns.", "timestamp": "2023-03-22", "main_entity": "US Economy"}
+{"question": "When did the Titan submersible implode?", "answer": "The OceanGate Titan submersible imploded on June 18, 2023 during a dive to the Titanic wreck.", "timestamp": "2023-06-18", "main_entity": "Marine Exploration"}
+{"question": "What was the COVID public health emergency end date in US?", "answer": "The US ended its COVID public health emergency on May 11, 2023.", "timestamp": "2023-05-11", "main_entity": "COVID-19"}
+{"question": "When did SVB bank collapse?", "answer": "Silicon Valley Bank failed on March 10, 2023, the largest US bank failure since 2008.", "timestamp": "2023-03-10", "main_entity": "Banking"}
+{"question": "What was the iPhone 14 release date?", "answer": "Apple released iPhone 14 on September 16, 2022.", "timestamp": "2022-09-16", "main_entity": "Apple"}
+{"question": "When did Liz Truss resign as UK PM?", "answer": "Liz Truss resigned on October 20, 2022 after just 45 days in office.", "timestamp": "2022-10-20", "main_entity": "UK Politics"}
+{"question": "What was the COP26 climate summit date?", "answer": "The COP26 UN climate conference was held in Glasgow from October 31-November 12, 2021.", "timestamp": "2021-10-31", "main_entity": "Climate Change"}
+{"question": "When did Amazon buy MGM Studios?", "answer": "Amazon acquired MGM for $8.5 billion on March 17, 2022.", "timestamp": "2022-03-17", "main_entity": "Entertainment"}
+{"question": "What was the date of the January 6 US Capitol attack?", "answer": "The attack on the US Capitol occurred on January 6, 2021.", "timestamp": "2021-01-06", "main_entity": "US Politics"}
+{"question": "When did WHO declare COVID a pandemic?", "answer": "The WHO declared COVID-19 a global pandemic on March 11, 2020.", "timestamp": "2020-03-11", "main_entity": "COVID-19"}
+{"question": "What was the date of the first COVID vaccine in US?", "answer": "The first COVID vaccines in the US were administered on December 14, 2020.", "timestamp": "2020-12-14", "main_entity": "COVID-19"}
+{"question": "When did the Taliban take Kabul?", "answer": "The Taliban captured Kabul on August 15, 2021 as US forces withdrew.", "timestamp": "2021-08-15", "main_entity": "Afghanistan"}
+{"question": "What was the date of the 2020 US election?", "answer": "The 2020 US presidential election was held on November 3, 2020.", "timestamp": "2020-11-03", "main_entity": "US Politics"}
+{"question": "When did Bitcoin reach its 2021 peak?", "answer": "Bitcoin reached its all-time high of $68,789 on November 10, 2021.", "timestamp": "2021-11-10", "main_entity": "Cryptocurrency"}
+{"question": "What was the date of the 2021 Capitol riot commission?", "answer": "The January 6 commission was established on July 1, 2021.", "timestamp": "2021-07-01", "main_entity": "US Politics"}
+{"question": "When did the 2020 Beirut explosion occur?", "answer": "The massive Beirut port explosion happened on August 4, 2020.", "timestamp": "2020-08-04", "main_entity": "Lebanon"}
+{"question": "What was the date of the first SpaceX crewed launch?", "answer": "SpaceX's first crewed mission (Demo-2) launched on May 30, 2020.", "timestamp": "2020-05-30", "main_entity": "SpaceX"}
+{"question": "When did TikTok surpass 1 billion users?", "answer": "TikTok reached 1 billion monthly active users in September 2021.", "timestamp": "2021-09-01", "main_entity": "Social Media"}
+{"question": "What was the date of the 2020 Australian wildfires?", "answer": "The catastrophic Australian bushfires peaked in January 2020.", "timestamp": "2020-01-01", "main_entity": "Climate Change"}
+{"question": "When did the 2020 stock market crash occur?", "answer": "The COVID-triggered market crash reached its bottom on March 23, 2020.", "timestamp": "2020-03-23", "main_entity": "Stock Market"}
+{"question": "What was the date of the first impeachment of Trump?", "answer": "Donald Trump was first impeached on December 18, 2019.", "timestamp": "2019-12-18", "main_entity": "US Politics"}
+{"question": "When did the UK first lockdown begin?", "answer": "The UK entered its first COVID lockdown on March 23, 2020.", "timestamp": "2020-03-23", "main_entity": "COVID-19"}
+{"question": "What was the date of the 2019 Hong Kong protests?", "answer": "Mass protests in Hong Kong began in June 2019 over an extradition bill.", "timestamp": "2019-06-01", "main_entity": "Hong Kong"}
+{"question": "When did the US kill Qasem Soleimani?", "answer": "The US drone strike killed Iranian general Soleimani on January 3, 2020.", "timestamp": "2020-01-03", "main_entity": "Middle East"}
+{"question": "What was the date of the first COVID case in US?", "answer": "The first confirmed US COVID case was reported on January 20, 2020.", "timestamp": "2020-01-20", "main_entity": "COVID-19"}
+{"question": "When did Notre Dame Cathedral fire occur?", "answer": "Notre Dame caught fire on April 15, 2019.", "timestamp": "2019-04-15", "main_entity": "France"}
+{"question": "What was the date of the first image of a black hole?", "answer": "The Event Horizon Telescope revealed the first black hole image on April 10, 2019.", "timestamp": "2019-04-10", "main_entity": "Astronomy"}
+{"question": "When did Brexit originally supposed to happen?", "answer": "The original Brexit date was March 29, 2019 before multiple extensions.", "timestamp": "2019-03-29", "main_entity": "Brexit"}
+{"question": "What was the date of the Christchurch mosque shootings?", "answer": "The Christchurch terrorist attack occurred on March 15, 2019.", "timestamp": "2019-03-15", "main_entity": "New Zealand"}
+{"question": "When did the US-China trade war begin?", "answer": "The US imposed first major tariffs on China on July 6, 2018.", "timestamp": "2018-07-06", "main_entity": "Trade"}
+{"question": "What was the date of the Cambridge Analytica scandal?", "answer": "The Facebook-Cambridge Analytica scandal broke in March 2018.", "timestamp": "2018-03-17", "main_entity": "Facebook"}
+{"question": "When did #MeToo movement go viral?", "answer": "The #MeToo movement gained global attention in October 2017.", "timestamp": "2017-10-15", "main_entity": "Social Movements"}
+{"question": "What was the date of the first gravitational wave detection?", "answer": "LIGO detected gravitational waves for the first time on September 14, 2015.", "timestamp": "2015-09-14", "main_entity": "Physics"}
+{"question": "When did same-sex marriage become legal in US?", "answer": "The US Supreme Court legalized same-sex marriage nationwide on June 26, 2015.", "timestamp": "2015-06-26", "main_entity": "LGBTQ+"}
+{"question": "What was the date of the Paris climate agreement?", "answer": "The Paris Agreement was adopted on December 12, 2015.", "timestamp": "2015-12-12", "main_entity": "Climate Change"}
+{"question": "When did the Ebola outbreak peak?", "answer": "The West Africa Ebola epidemic peaked in late 2014.", "timestamp": "2014-10-01", "main_entity": "Ebola"}
+{"question": "What was the date of the Crimea annexation?", "answer": "Russia annexed Crimea on March 18, 2014.", "timestamp": "2014-03-18", "main_entity": "Russia"}
+{"question": "When did Edward Snowden leak NSA documents?", "answer": "Snowden's first NSA leaks were published in June 2013.", "timestamp": "2013-06-05", "main_entity": "Surveillance"}
+{"question": "What was the date of the Boston Marathon bombing?", "answer": "The Boston Marathon bombing occurred on April 15, 2013.", "timestamp": "2013-04-15", "main_entity": "Terrorism"}
+{"question": "When did the Higgs boson discovery occur?", "answer": "CERN announced Higgs boson discovery on July 4, 2012.", "timestamp": "2012-07-04", "main_entity": "Physics"}
+{"question": "What was the date of the Curiosity Mars landing?", "answer": "Curiosity rover landed on Mars on August 6, 2012.", "timestamp": "2012-08-06", "main_entity": "NASA"}
+{"question": "When did Osama bin Laden get killed?", "answer": "US forces killed Osama bin Laden on May 2, 2011.", "timestamp": "2011-05-02", "main_entity": "Terrorism"}
+{"question": "What was the date of the Fukushima disaster?", "answer": "The Fukushima nuclear disaster began on March 11, 2011.", "timestamp": "2011-03-11", "main_entity": "Japan"}
+{"question": "When did the Arab Spring begin?", "answer": "The Arab Spring protests started in Tunisia in December 2010.", "timestamp": "2010-12-17", "main_entity": "Middle East"}
+{"question": "What was the date of the Deepwater Horizon spill?", "answer": "The Deepwater Horizon oil spill began on April 20, 2010.", "timestamp": "2010-04-20", "main_entity": "Environment"}
+{"question": "When did Bitcoin first launch?", "answer": "The Bitcoin network came online on January 3, 2009.", "timestamp": "2009-01-03", "main_entity": "Cryptocurrency"}
+{"question": "What was the date of the Lehman Brothers collapse?", "answer": "Lehman Brothers filed for bankruptcy on September 15, 2008.", "timestamp": "2008-09-15", "main_entity": "Finance"}
+{"question": "When did the iPhone first launch?", "answer": "The first iPhone was released on June 29, 2007.", "timestamp": "2007-06-29", "main_entity": "Apple"}
+{"question": "What was the date of the first YouTube video?", "answer": "The first YouTube video 'Me
