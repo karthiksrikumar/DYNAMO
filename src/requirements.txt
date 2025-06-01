@@ -1,0 +1,11 @@
+torch
+transformers
+peft
+wandb
+datasets
+pandas
+numpy
+scikit-learn
+pyyaml
+tqdm
+einops
