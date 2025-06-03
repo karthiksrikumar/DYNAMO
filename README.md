@@ -6,7 +6,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 
-> **DYNAMO** addresses two fundamental limitations of Large Language Models: **temporal bias** from static training data and **causal fragility** from correlational learning through parameter-efficient temporal-causal adapters.
+> Large language models (LLMs) are trained on static snapshots of data, making them poorly equipped to handle real-world environments where information, relationships, and contexts evolve over time. As the world changes, these models fail to adapt, leading to outdated knowledge and incorrect predictions. This creates two core problems: first, their understanding of facts degrades as time passes, and second, their ability to reason about cause and effect becomes unstable. Without mechanisms to track temporal changes or adjust to shifting causal structures, current LLMs cannot maintain reliable performance in dynamic settings like finance, healthcare, or real-time decision-making systems (staying updated with politics). We present DYNAMO, a novel framework addressing the dual challenges of temporal bias and causal fragility in large language models through an innovative combination of operator-valued time embeddings and graph-conditioned manifold projections. **DYNAMO** addresses two fundamental limitations of Large Language Models: **temporal bias** from static training data and **causal fragility** from correlational learning through parameter-efficient temporal-causal adapters. 
 
 ## 🚀 Key Highlights
 
@@ -24,8 +24,6 @@
 - [Architecture](#architecture)
 - [Experiments](#experiments)
 - [Results](#results)
-- [Citation](#citation)
-- [Contributing](#contributing)
 
 ## 🔍 Overview
 
@@ -83,7 +81,7 @@ pip install -e .
 ```
 
 ### Hardware Requirements
-- **Training**: 4× A100 GPUs (recommended)
+- **Training**: 4× A100 GPUs (our setup)
 - **Inference**: 1× RTX 3090 or better
 - **RAM**: 32GB+ system memory
 
